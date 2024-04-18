@@ -29,6 +29,19 @@ function Header() {
               </div>
 
               
+              <div className="email-btn-container">
+                    <div className="email-wrap">
+                        <label htmlFor="email" className="email-label">Email address</label>
+
+                        <div className="email-container">
+                            <input type="email" name="email" className="email-input" />
+                        </div>
+                    </div>
+
+                    {/* <div className="btn-wrap">
+                        <button>Get Started</button>
+                    </div> */}
+              </div>
             </div>
           </form>
         </div>
