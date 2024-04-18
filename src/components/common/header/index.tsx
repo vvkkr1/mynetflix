@@ -1,5 +1,6 @@
 import "./styles.scss";
 import netflix from "../icons/netflix.svg";
+import selectIcon from "../icons/selectIcon.svg"
 
 function Header() {
   return (
@@ -53,10 +54,11 @@ function Header() {
         </div>
 
         <div className="right-container">
-          <div className="select-container">
+          <div className="select-container" style={{position:"relative"}}>
+          <img style={{position:"absolute", top:"7px",left:"10px"}} src={selectIcon} alt="logo" />
             <select name="" id="" className="slt">
               <option value="">English</option>
-              <option value="">Hindi</option>
+              <option value="">हिंदी</option>
             </select>
           </div>
 
