@@ -38,9 +38,9 @@ function Header() {
                         </div>
                     </div>
 
-                    {/* <div className="btn-wrap">
+                    <div className="btn-wrap">
                         <button>Get Started</button>
-                    </div> */}
+                    </div>
               </div>
             </div>
           </form>
