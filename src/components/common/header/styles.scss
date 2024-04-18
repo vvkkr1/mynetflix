@@ -177,11 +177,16 @@
             top: 20px;
 
             .select-container{
-                margin-right: 10px;
+                margin-right: 25px;
 
                 .slt{
-                    padding: 0.2rem;
-                    padding-right: 1.25rem;
+                    padding: .2rem 1rem .2rem 1rem;
+                    // padding-right: 1.25rem;
+                    width: 124px;
+                    height: 32px;
+                    background: none;
+                    color: #FFFFFF;
+                    border-radius: 0.4rem;
                     // line-height: 1.25rem;
                 }
             }
@@ -205,6 +210,8 @@
                     background-color: rgb(229, 9, 20);
                     border-radius: 0.25rem;
                     border-color: rgba(0, 0, 0, 0);
+                    width: 76px;
+                    height: 32px;
                 }
             }
         }
