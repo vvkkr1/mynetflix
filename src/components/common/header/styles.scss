@@ -13,6 +13,7 @@
         position: relative;
 
         .theme-netflix{
+            box-sizing: border-box;
 
             .theme{
                 width: 100vw;
@@ -109,8 +110,8 @@
                                 border-width: 1px;
                                 border-style: solid;
                                 border-radius: 0.25rem;
-                                padding: 1.2rem 1rem 0.5rem; 
-                                width: 300px                           ;
+                                padding: 1rem 1rem 0.5rem; 
+                                width: 320px                           ;
 
                                 // position: absolute;
                                 // margin-top: 30px;
@@ -123,11 +124,12 @@
                                 .email-input{
                                     outline: none;
                                     text-decoration: none;
-                                    line-height: 1.5rem;
+                                    // line-height: 1.5rem;
                                     background: none;
                                     color:#FFFFFF;
                                     border: none;
                                     margin-bottom: 0.4rem;
+                                    width: inherit
                                     // font-size: 1rem;
                                     // z-index: 0;
 

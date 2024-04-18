@@ -39,7 +39,7 @@ function Header() {
                     </div>
 
                     <div className="btn-wrap">
-                        <button>Get Started</button>
+                        <button style={{color:"#ffffff",background:"rgb(229, 9, 20)", borderRadius: "0.1875rem", borderColor: "rgba(0, 0, 0, 0)",width:"200px",height:"54px", fontSize:"1.2rem",fontWeight:"500"}}>Get Started</button>
                     </div>
               </div>
             </div>
