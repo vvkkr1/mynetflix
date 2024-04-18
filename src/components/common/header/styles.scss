@@ -33,13 +33,35 @@
         .heading-form-container{
             position:absolute;
             top: 300px;
-            left: 500px;
+            left: 400px;
 
 
             .headingOne{
                 color: #FFFFFF;
                 font-size: 3rem;
                 font-weight: 900;
+                margin: 0px;
+            }
+
+            .subHeading{
+                font-size: 1.5rem;
+                font-weight: 400;
+                margin-left: 250px;
+                color: #FFFFFF;
+            }
+
+            .form{
+
+                .form-wrap{
+
+                    .title-wrap{
+
+                        .title{
+                            color: #FFFFFF;
+                            margin-left: 100px;
+                        }
+                    }
+                }
             }
         }
 

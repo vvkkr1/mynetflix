@@ -16,6 +16,21 @@ function Header() {
 
         <div className="heading-form-container">
           <h1 className="headingOne">Unlimited movies, TV shows and more</h1>
+
+          <p className="subHeading">Watch anywhere. Cancel anytime.</p>
+
+          <form className="form">
+            <div className="form-wrap">
+              <div className="title-wrap">
+                <h3 className="title">
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </h3>
+              </div>
+
+              
+            </div>
+          </form>
         </div>
 
         <div className="left-container">
