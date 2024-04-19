@@ -87,6 +87,9 @@
                             margin-left: 9rem;
                             display: flex;
                             flex: 5;
+
+
+                            // position: relative;
                             
     
                             .email-label{
@@ -100,6 +103,14 @@
                                 top: 1rem;
                                 color: rgba(255, 255, 255, 0.7);
                                 // color: #FFFFFF;
+
+
+                                // position: absolute;
+                                // left: 0px;
+                                // font-size: 25px;
+                                // top: 8px;
+                                // pointer-events: none;
+                                // transition: 0.2s;
 
                             
                             }
@@ -116,10 +127,6 @@
                                 // position: absolute;
                                 // margin-top: 30px;
 
-
-
-
-                                // width: 100%;
     
                                 .email-input{
                                     outline: none;
@@ -129,7 +136,8 @@
                                     color:#FFFFFF;
                                     border: none;
                                     margin-bottom: 0.4rem;
-                                    width: inherit
+                                    width: inherit;
+                                    font-size:1rem;
                                     // font-size: 1rem;
                                     // z-index: 0;
 
@@ -138,6 +146,13 @@
                                   
     
                                 }
+
+                                 .email-input input:focus + .email-label{
+                                    top: -15px;
+                                    font-size: 16px;
+                                    color: blue;
+
+                                 }
                             }
                         }
 
