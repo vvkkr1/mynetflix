@@ -1,10 +1,12 @@
+import Footer from "../../common/footer";
 import Header from "../../common/header";
 
 function HomepageDesktop(){
     return(
         <div>
             <div>
-                <Header/>
+                {/* <Header/> */}
+                <Footer/>
             </div>
         </div>
     )
