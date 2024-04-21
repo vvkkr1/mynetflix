@@ -1,12 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { FooterWrapper, ContainerWrapper, Wrapper, BorderLine } from './styles';
+import { FooterMain, FooterWrapper, Wrapper, BorderLine, Container } from './styles';
 import selectIcon from "../icons/selectIcon.svg";
 
 function Footer(){
     return(
-        <FooterWrapper>
-            <ContainerWrapper>
+        <FooterMain>
+            <FooterWrapper>
+
+                <Container>
                     <BorderLine>
                         <div style={{width:"100%", height:"0.5rem", backgroundColor: "#2D2D2D", bottom: "-0.5rem"}}></div>
                     </BorderLine>
@@ -69,8 +69,10 @@ function Footer(){
                             <div style={{color:"rgba(255, 255, 255, 0.7)"}}>Netflix India</div>
                         </div>
                     </Wrapper>
-            </ContainerWrapper>
-        </FooterWrapper>
+                </Container>
+
+            </FooterWrapper>
+        </FooterMain>
     )
 }
 export default Footer
