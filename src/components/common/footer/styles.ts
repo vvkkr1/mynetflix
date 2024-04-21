@@ -7,3 +7,8 @@ export const FooterWrapper = styled.div`
 
 
 export const ContainerWrapper = styled.div``;
+
+
+export const Wrapper = styled.div``;
+
+export const BorderLine = styled.div``;
